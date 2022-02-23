@@ -7,8 +7,7 @@ using System.Web.Http;
 
 namespace project2.Controllers
 {
-    //ufhasiufhsafh
-    //isyfgiusdgfsdfhjh
+    
     
     public class jaController : ApiController
     {
