@@ -7,6 +7,11 @@ using System.Web.Http;
 
 namespace project2.Controllers
 {
+// calculate the possible no of ways a pair of dice with n and m sides can return value 10 when their sided are added
+//create two integers that represent no of sides of the two dices.
+// intialising a counter to 0 to keep track of no of ways
+// create a for loop for each die to create a possible pair which will result in the value 10.
+// return the final updated counter with a string
     public class J2Controller : ApiController
     {
         [Route("api/J2/dice/{n}/{m}")]
