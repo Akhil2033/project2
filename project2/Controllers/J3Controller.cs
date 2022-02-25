@@ -9,6 +9,13 @@ namespace project2.Controllers
 {
     public class J3Controller : ApiController
     {
+    // calculate the no of seconds spent on typing a string with T9 keyboard
+    // dividing alphabets with respect to their placement on the buttons
+    // 4 arrays are created to alocate 1st, 2nd, 3rd and 4th positioned letters.
+    // create 4 variables which represent no of seconds required to type each kind of letter
+    // A seperate variable called time is allocated to keep the track of no of seconds.
+    // unfortunately I couldn't come up with "pause time method" on time which is used to keep track of words that use only one key.
+    
         [Route("api/J3/sec/{crac}")]
         public string Getsec(string crac)
         {
